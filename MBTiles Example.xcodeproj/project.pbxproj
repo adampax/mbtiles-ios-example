@@ -294,15 +294,6 @@
 				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				HEADER_SEARCH_PATHS = "route-me/MapView/**";
 				INFOPLIST_FILE = "MBTiles_Example-Info.plist";
-				LIBRARY_SEARCH_PATHS = "$(inherited)";
-				"LIBRARY_SEARCH_PATHS[sdk=iphoneos*][arch=*]" = (
-					"$(inherited)",
-					"\"$(SRCROOT)/route-me/MapView/build/Debug-iphoneos\"",
-				);
-				"LIBRARY_SEARCH_PATHS[sdk=iphonesimulator*][arch=*]" = (
-					"$(inherited)",
-					"\"$(SRCROOT)/route-me/MapView/build/Debug-iphonesimulator\"",
-				);
 				OTHER_LDFLAGS = "-lMapView";
 				PRODUCT_NAME = MBTiles;
 			};
@@ -318,15 +309,6 @@
 				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				HEADER_SEARCH_PATHS = "route-me/MapView/**";
 				INFOPLIST_FILE = "MBTiles_Example-Info.plist";
-				LIBRARY_SEARCH_PATHS = "$(inherited)";
-				"LIBRARY_SEARCH_PATHS[sdk=iphoneos*][arch=*]" = (
-					"$(inherited)",
-					"\"$(SRCROOT)/route-me/MapView/build/Release-iphoneos\"",
-				);
-				"LIBRARY_SEARCH_PATHS[sdk=iphonesimulator*][arch=*]" = (
-					"$(inherited)",
-					"\"$(SRCROOT)/route-me/MapView/build/Release-iphonesimulator\"",
-				);
 				OTHER_LDFLAGS = "-lMapView";
 				PRODUCT_NAME = MBTiles;
 				VALIDATE_PRODUCT = YES;
